@@ -1,0 +1,9 @@
+This package was debianized by Wade Simmons <wade@simplegeo.com>
+
+The upstream repo is:
+    https://github.com/simplegeo/nodejs-debhelper
+    MIT License
+
+The Debian packaging is
+    Copyright 2011, SimpleGeo, Inc.
+    MIT License

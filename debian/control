@@ -1,0 +1,13 @@
+Source: nodejs-pkg-tools
+Section: misc
+Priority: extra
+Uploaders: Wade Simmons <wade@simplegeo.com>
+Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
+build-Depends: cdbs, debhelper (>= 7)
+Standards-Version: 3.9.1
+
+Package: nodejs-pkg-tools
+Depends: nodejs-npm (>= 1.0), ${misc:Depends}
+Architecture: all
+Description: Tools for building Debian Node.js packages
+ https://github.com/simplegeo/nodejs-debhelper
