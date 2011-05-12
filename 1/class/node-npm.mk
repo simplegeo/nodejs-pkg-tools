@@ -17,7 +17,6 @@ node-npm-sanity-check:
 
 common-install-arch common-install-indep:: common-install-impl
 common-install-impl::
-	echo $(PWD)
 	npm_config_prefix=$(DEB_DESTDIR)usr/lib/nodejs_debian npm install -g
 	dh_link usr/lib/nodejs_debian/lib/node_modules/$(DEB_NPM_NAME) usr/lib/nodejs/$(DEB_NPM_NAME)
 
