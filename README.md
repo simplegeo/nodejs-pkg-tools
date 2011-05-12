@@ -14,3 +14,9 @@ bundle certain dependencies (by default, it will).
 
     include /usr/share/cdbs/1/rules/debhelper.mk
     include /usr/share/nodejs-pkg-tools/1/class/node-npm.mk
+
+## TODO
+
+- Make it possible to not bundle dependencies.
+- Symlink ./bin files into /usr/bin.
+- Symlink man files.
